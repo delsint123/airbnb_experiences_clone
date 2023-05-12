@@ -4,6 +4,7 @@
 
 body {
     margin: 0;
+    font-family: Poppins, sans-serif;
 }
 
 nav {
@@ -14,4 +15,29 @@ nav {
 .nav--logo {
     width: 82px;
     margin: 22px 30px;
+}
+
+.hero {
+    margin: 35px;
+}
+
+.hero--photo_grid {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+}
+
+.hero--title {
+    font-weight: 600;
+    font-size: 36px;
+    margin-bottom: 16px;
+}
+
+.hero--subtitle {
+    font-weight: 300;
+    font-size: 16px;
+    color: #222222;
+    width: 60%;
+    margin: 0px;
 }
