@@ -3,7 +3,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Card from './components/Card'
 
-import katie_image from "./assets/katie-zaferes.png"
+import katie_image from "../public/katie-zaferes.png"
 
 export default function App() {
   return (
