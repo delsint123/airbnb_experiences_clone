@@ -56,10 +56,10 @@ nav {
     flex-wrap: nowrap;
     gap: 20px;
     overflow-x: auto;
+    margin-left: 35px;
 }
 
 .card {
-    margin-left: 35px;
     display: flex;
     flex-direction: column;
     width: 176px;
