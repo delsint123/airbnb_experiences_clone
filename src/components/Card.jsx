@@ -1,14 +1,13 @@
 import React from "react";
-import star_icon from "../../public/star.png"
 
 export default function Card(props) {
     return (
-        <div className="card--katie">
+        <div className="card">
             <img className="card--image" src={props.img} />
             
             <div className="card--content">
                 <div className="card--ratings">
-                    <img className="card--star_icon" src={star_icon} />
+                    <img className="card--star_icon" src="./star.png" />
                     <p>{props.rating} <span className="grey"> ({props.reviewCount}) • {props.country} </span></p>
                 </div>
                 <p>{props.title}</p>
