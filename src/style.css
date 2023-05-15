@@ -51,11 +51,21 @@ nav {
     margin-bottom: 5px;
 }
 
+.cards-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+}
+
 .card {
     margin-left: 35px;
     display: flex;
     flex-direction: column;
     width: 176px;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .card--image {
@@ -89,4 +99,13 @@ nav {
 .card--star_icon {
     margin-right: 3px;
     height: 14px;
+}
+
+.card--title {
+    overflow: hidden;
+    text-overflow: center;
+}
+
+.card--price {
+    margin-top: auto;
 }
